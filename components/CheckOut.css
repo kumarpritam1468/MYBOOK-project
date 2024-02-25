@@ -1,0 +1,50 @@
+.checkOutSection{
+    background: url(../assets/checkOut-hero.svg) no-repeat top/contain;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.checkOutSection > img{
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+    cursor: pointer;
+}
+
+.checkOut{
+    padding: 11.5rem 5.5rem 5.5rem;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.checkOut .left{
+    width: 60%;
+}
+
+.checkOut .right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right > h1{
+    color: white;
+    font-weight: 500;
+}
+
+.right .cardList{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cardBox1{
+    background: white;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+}
