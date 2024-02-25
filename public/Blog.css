@@ -1,0 +1,44 @@
+/* It uses the style.css file for base styiling and this css file contains add ons */
+
+#home{
+    min-height: 38rem;
+}
+
+.blogBody{
+    width: 100vw;
+    padding: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    background: #F5F6F8;
+}
+
+.blogCard{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding-bottom: 3rem;
+}
+
+.blogCard img{
+    width: 100%;
+}
+
+.blogCard .cardText{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.blogCard h2{
+    font-size: 1.5rem;
+}
+
+.blogCard p{
+    font-size: 1rem;
+    line-height: 2rem;
+}

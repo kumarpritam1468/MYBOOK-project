@@ -1,0 +1,40 @@
+/* It uses the style.css file for base styiling and this css file contains add ons */
+
+
+.bookShop{
+    width: 75%;
+    padding: 0 0 0 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4.5rem;
+}
+
+.bookShop .cardBox1{
+    background: white;
+    width: 24rem;
+    height: 21rem;
+}
+
+.bookShop .cardBox1>img{
+    transform: translateX(-50%);
+}
+
+.bookShop .cardBox1 .cardText{
+    transform: translateX(-20%);
+}
+
+.cardBox1 .btn{
+    background: #FF971D1A;
+    border: 1px solid #FF971D;
+    color: #FF971D;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+@media screen and (max-width:1440px) {
+    .bookShop{
+        padding: 0 0 0 5rem;
+    }
+}
